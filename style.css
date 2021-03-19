@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ .clearfix::after {
+     content: "";
+     display: table;
+     clear: both;
+ }
+
+ body {
+     width: 80%;
+     margin: auto;
+ }
+
+
+    /* Header css */
+
+ header {
+     background-color: rgb(94, 162, 221);
+     height: 150px;
+     padding-top: 20px;
+     font-family: 'Montserrat', sans-serif;;
+ }
+ header img {
+     height: 50%;
+ }
+ header ul {
+     list-style: none;
+     padding-top: 20px;
+ }
+.nav_site li {
+    display: inline-block;
+    margin: 8px;
+}
+
+
+    /* main css */
+ 
+.img_site {
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    background-position-y: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.testo_banner {
+    color: white;
+    position: absolute;
+    bottom: 60px;
+    left: 40px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.testo_banner h3 {
+    font-size: 40px;
+    font-weight: 400;
+
+}
+.testo_banner p {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+ .leadership {
+     background-color: aliceblue;
+     height: 100px;
+     margin-top: 20px;
+ }
+
+ .side_left, .side_right {
+     width: 25%;
+     background-color: darkseagreen;
+     float: left;
+     height: 400px;
+ }
+.side_main {
+    width: 50%;
+    background-color: cornflowerblue;
+    height: 400px;
+    float: left;
+}
+footer {
+    background-color: darkslategray;
+    height: 100px;
+}
