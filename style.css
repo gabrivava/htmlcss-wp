@@ -39,14 +39,18 @@
     /* main css */
  
 .img_site {
-    background-image: url(./img/banner.jpg);
-    background-size: cover;
     height: 500px;
-    width: 100%;
-    background-position-y: center;
-    border-radius: 10px;
+    width: 100%; 
     margin-top: 20px;
     position: relative;
+}
+
+.img_site img {
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+    border-radius: 10px;
+    filter: brightness(50%);
 }
 
 .testo_banner {
@@ -80,6 +84,10 @@
      font-size: 20px;
      font-weight: 400;
  }
+
+
+
+ /* container a 3 colonne */
 
  .side_left, .side_right {
      width: 25%;
