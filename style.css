@@ -109,12 +109,12 @@
 }
 
 
- .side_left, .side_right {
-     width: 25%;
-     float: left;
-     padding: 10px;
+.side_left, .side_right {
+    width: 25%;
+    float: left;
+    padding-top: 10px;
      
- }
+}
 .side_main {
     padding: 10px;
     width: 50%;  
