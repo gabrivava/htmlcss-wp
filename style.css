@@ -18,7 +18,6 @@
     /* Header css */
 
  header {
-     background-color: rgb(94, 162, 221);
      height: 150px;
      padding-top: 20px;
      font-family: 'Montserrat', sans-serif;;
@@ -31,6 +30,7 @@
      padding-top: 20px;
  }
 .nav_site li {
+    color: grey;
     display: inline-block;
     margin: 8px;
 }
@@ -72,7 +72,6 @@
 }
 
  .leadership {
-     background-color: aliceblue;
      height: 100px;
      margin-top: 20px;
      font-family: 'Montserrat', sans-serif;
@@ -81,7 +80,7 @@
  }
  .leadership p {
      color: grey;
-     font-size: 20px;
+     font-size: 18px;
      font-weight: 400;
  }
 
@@ -89,19 +88,48 @@
 
  /* container a 3 colonne */
 
+.container {
+    font-family: 'Montserrat', sans-serif;
+ }
+.container div img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    filter: brightness(70%);
+}
+.container h3 {
+    margin-top: 10px;
+    font-weight: 400;
+}
+.container p {
+    color: grey;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+
  .side_left, .side_right {
      width: 25%;
-     background-color: darkseagreen;
      float: left;
-     height: 400px;
+     padding: 10px;
+     
  }
 .side_main {
-    width: 50%;
-    background-color: cornflowerblue;
-    height: 400px;
+    padding: 10px;
+    width: 50%;  
     float: left;
 }
+
+
+
+
 footer {
-    background-color: darkslategray;
     height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+footer span {
+    color: red;
 }
