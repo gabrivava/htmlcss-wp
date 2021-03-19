@@ -67,15 +67,18 @@
     font-weight: 400;
 }
 
-
-
-
-
-
  .leadership {
      background-color: aliceblue;
      height: 100px;
      margin-top: 20px;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 30px;
+     font-weight: bolder;
+ }
+ .leadership p {
+     color: grey;
+     font-size: 20px;
+     font-weight: 400;
  }
 
  .side_left, .side_right {
